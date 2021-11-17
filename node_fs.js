@@ -7,8 +7,12 @@ const fs = require('fs')
 
 // console.log(fs);
 
+// 同步，容易造成堵塞
 // 1. 打开文件
 let fd = fs.openSync('node_fs0001.js', 'w') // 文件路径， w:写 r：读, 
 
 // 2. 向文件写入内容
 fs.writeSync(fd, '你好呀，我是writeSync！');
+
+// 3. 关闭文件
+fs.closeSync(fd);
