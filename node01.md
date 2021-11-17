@@ -84,3 +84,12 @@
         - 当前模块的完整路径
        __dirname
         - 当前模块所在文件夹的完整路径 
+
+# npm 命令
+  npm -v                 查看版本
+  npm version            查看所有模块版本
+  npm search 包名         搜索包
+  npm install / i        安装包
+  npm remove / r 包名     删除包
+  npm install 包名 --save 安装包并添加至依赖中 
+  npm i 包名 -g           全局安装（一般是一些工具）       
